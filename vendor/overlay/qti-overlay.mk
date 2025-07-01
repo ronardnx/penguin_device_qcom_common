@@ -29,3 +29,9 @@ PRODUCT_PACKAGES += \
     WifiResTargetMainline_cape \
     WifiResTargetMainline_ukee
 endif
+
+ifeq ($(TARGET_BOARD_PLATFORM),pineapple)
+PRODUCT_PACKAGES += \
+    WifiResTarget_cliffs \
+    WifiResTargetMainline_cliffs
+endif
