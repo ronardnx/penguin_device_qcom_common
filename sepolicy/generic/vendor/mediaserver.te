@@ -1,1 +1,3 @@
 get_prop(mediaserver, vendor_display_prop)
+
+allow mediaserver media_quality_service:service_manager find;

@@ -5,3 +5,7 @@ binder_call(vendor_hal_perf_default, vendor_hal_poweroptservice)
 hal_client_domain(vendor_hal_perf_default, vendor_hal_poweroptservice)
 
 dontaudit vendor_hal_perf_default default_android_service:service_manager find;
+
+get_prop(vendor_hal_perf_default, vendor_audio_prop)
+
+set_prop(vendor_hal_perf_default, vendor_audio_prop)
