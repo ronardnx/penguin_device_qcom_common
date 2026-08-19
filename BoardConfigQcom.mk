@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Audio hal features
+include device/qcom/common/vendor/audio/audio.mk
+
 # AV
 BOARD_USES_ADRENO := true
 TARGET_USES_AOSP_FOR_AUDIO ?= false
